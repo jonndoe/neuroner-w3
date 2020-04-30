@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load wagtailimages_tags wagtailcore_tags %}
+
+{% block content %}
+<div class="">
+
+{% image page.image fill-1920x600 as image %}
+<div class="hero-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('{{ image.url }}')">
+
+
+
+            <div class="hero-text">
+                <h1>{{ page.title }}</h1>
+                <h3 class="">{{ page.hero_text }}</h3>
+                {% if page.hero_cta_link %}
+                    <a href="{% pageurl page.hero_cta_link %}" class="w3-button button">
+                        {{ page.hero_cta }}
+                    </a>
+                {% else %}
+                    {{ page.hero_cta }}
+                {% endif %}
+            </div>
+
+
+</div>
+
+</div>
+{% endblock content %}
