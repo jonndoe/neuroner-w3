@@ -4,7 +4,7 @@
 {% block content %}
     {% include "base/include/header-index.html" %}
 
-    <div class="container">
+    <div class="w3-col l8 s12">
         {% if tag %}
             <div class="row">
                 <div class="col-md-12">
@@ -14,45 +14,69 @@
         {% endif %}
 
         {% if page.get_child_tags %}
-            <ul class="blog-tags tags list-inline">
-                {% for tag in page.get_child_tags %}
-                    <li><a href="{{ tag.url }}">{{ tag }}</a></li>
-                {% endfor %}
-            </ul>
+            <!-- Labels / tags -->
+            <div class="w3-card w3-margin">
+              <div class="w3-container w3-padding">
+                <h4>Tags</h4>
+              </div>
+              <div class="w3-container w3-white">
+                  <p>
+                    {% for tag in page.get_child_tags %}
+                        <a href="{{ tag.url }}"><span class="w3-tag w3-teal w3-margin-bottom">{{ tag }}</span></a>
+                    {% endfor %}
+                  </p>
+              </div>
+            </div>
         {% endif %}
 
-        <div class="row row-eq-height blog-list">
+
+
+
+
+
+
+
+        <!-- Blog entries -->
+        <div class="">
             {% if posts %}
                 {% for blog in posts %}
 
-                {% get_comment_count for blog as comment_count %}
-                <p class="date">Published {{ blog.publish }}
-                  {% if comment_count %}
-                  &sdot;&nbsp;{{ comment_count }} comment{{ comment_count|pluralize }}
-                  {% endif %}
-                </p>
-
-
-                    <li class="col-xs-12 col-sm-6 col-md-3 blog-list-item">
-                        <a href="{% pageurl blog %}">
-                            <div class="image">
-                                {% image blog.image fill-850x450-c50 as image %}
-                                <img src="{{ image.url }}" width="{{ image.width }}" height="{{ image.height }}" alt="{{ image.alt }}" class="" />
+                    <!-- Blog entry -->
+                    <div class="w3-card-4 w3-margin w3-white">
+                        {% image blog.image fill-850x450-c50 as image %}
+                        <img src="{{ image.url }}" alt="{{ image.alt }}" style="width:100%" />
+                        <div class="w3-container">
+                          <h3><b>{{ blog.title }}</b></h3>
+                          <h5>
+                              {% if blog.date_published %}
+                                  <span class="w3-opacity">{{ blog.date_published }}</span> by
+                                    {% endif %}
+                                    {% for author in blog.authors %}
+                                        {{ author }}{% if not forloop.last %}, {% endif %}
+                                    {% endfor %}
+                          </h5>
+                        </div>
+                        <div class="w3-container">
+                          <p>{{ blog.introduction|truncatewords:15 }}</p>
+                          <div class="w3-row">
+                            <div class="w3-col m8 s12">
+                                <p>
+                                    <a href="{% pageurl blog %}">
+                                        <button class="button"><span>READ</span></button>
+                                    </a>
+                                </p>
                             </div>
-                            <div class="text">
-                                <h2 class="blog-list-title">{{ blog.title }}</h2>
-                                <p>{{ blog.introduction|truncatewords:15 }}</p>
+                            <div class="w3-col m4 w3-hide-small">
+                              <p><span class="w3-padding-large w3-right"><b>
+                                  {% get_comment_count for blog as comment_count %}
+                                  {% if comment_count %}
+                                  Comment{{ comment_count|pluralize }}
+                                      </b> <span class="w3-badge">{{ comment_count }}</span></span></p>
+                                  {% endif %}
                             </div>
-                            <div class="small footer">
-                                {% if blog.date_published %}
-                                    {{ blog.date_published }} by 
-                                {% endif %}
-                                {% for author in blog.authors %}
-                                    {{ author }}{% if not forloop.last %}, {% endif %}
-                                {% endfor %}
-                            </div>
-                        </a>
-                    </li>
+                          </div>
+                        </div>
+                    </div>
                 {% endfor %}
             {% else %}
                 <div class="col-md-12">

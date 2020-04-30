@@ -10,7 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="" />
+    <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/base/templatetags/navigation_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/base/templatetags/navigation_tags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base/home_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base/home_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base/include/header-hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base/include/header-hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base/include/header-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base/include/header-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base/include/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/tags/breadcrumbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/tags/breadcrumbs.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +88,8 @@
       <workItem from="1588074920713" duration="2967000" />
       <workItem from="1588089975072" duration="12118000" />
       <workItem from="1588150993138" duration="746000" />
-      <workItem from="1588203754015" duration="9106000" />
+      <workItem from="1588203754015" duration="9574000" />
+      <workItem from="1588243761722" duration="15005000" />
     </task>
     <servers />
   </component>
@@ -103,9 +117,13 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1148" y="282" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1588151715642" />
-    <state x="683" y="293" width="908" height="518" key="find.popup" timestamp="1588097959449">
+    <state x="678" y="143" width="770" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588249771024">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="683" y="293" width="908" height="518" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1588097959449" />
+    <state x="678" y="143" width="770" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588249771024" />
+    <state x="683" y="293" width="908" height="518" key="find.popup" timestamp="1588245223653">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="683" y="293" width="908" height="518" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1588245223653" />
   </component>
 </project>
