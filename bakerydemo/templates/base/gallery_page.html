@@ -3,24 +3,18 @@
 
 {% block content %}
 {% image self.image fill-1920x600 as hero_img %}
-<div class="container-fluid hero" style="background-image:url('{{ hero_img.url }}')">
+<div class="hero-image" style="background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),url('{{ hero_img.url }}'); height: 60vh">
 <div class="hero-gradient-mask"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-7 col-md-offset-2">
+    <div class="w3-container">
+        <div class="hero-text-blog">
                 <h1>{{ page.title }}</h1>
                 <p class="stand-first">{{ page.subtitle }}</p>
-            </div>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
+<div class="w3-container w3-center">
             <h2>{{ page.introduction }}</h2>
             {% gallery page.collection %}
-        </div>
-    </div>
 </div>
 {% endblock content %}

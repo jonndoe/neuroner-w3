@@ -6,11 +6,9 @@
 
     <div class="w3-col l8 s12">
         {% if tag %}
-            <div class="">
-                <div class="">
-                    <p>Viewing all blog posts by <span class="w3-tag w3-round w3-light-blue w3-xlarge">{{ tag }}</span></p>
+                <div class="w3-container">
+                    <p class="w3-large">Viewing all blog posts by <span class="w3-tag w3-round w3-light-blue w3-xlarge">{{ tag }}</span></p>
                 </div>
-            </div>
         {% endif %}
 
         {% if page.get_child_tags %}

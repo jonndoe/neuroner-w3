@@ -35,12 +35,12 @@
                 <br>
                 <br><br>
 
-                <div class="w3-large w3-mobile"><p>{{ page.body }}</p></div>
+                <div class="w3-container w3-large" style="padding:0px;">{{ page.body }}</div>
 
                 {% if page.get_tags %}
                     Tagged with:<br />
                     {% for tag in page.get_tags  %}
-                        <a href="{{ tag.url }}" ><span class="w3-tag w3-round w3-teal w3-margin-bottom">{{ tag }}</span></a>
+                        <a href="{{ tag.url }}" ><span class="w3-tag w3-round w3-light-blue w3-margin-bottom">{{ tag }}</span></a>
                     {% endfor %}
                 {% endif %}
 

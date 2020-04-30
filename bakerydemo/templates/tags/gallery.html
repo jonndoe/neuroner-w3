@@ -1,12 +1,17 @@
 {% load wagtailimages_tags %}
 
+
+
+  <!-- Photo grid -->
+<div class="w3-row w3-grayscale-min">
 {% for img in images %}
 {% image img fill-285x200-c100 as img_obj %}
-<div class="col-sm-6">
+<div class="w3-quarter">
     <figure class="gallery-figure">
-        <img src="{{img_obj.url}}" class="img-responsive" />
+        <img src="{{img_obj.url}}" style="width:100%" onclick="onClick(this)" alt="beautiful nature"/>
         <figcaption>{{ img.title }}</figcaption>
     </figure>
 </div>
 {{ image.title }}
 {% endfor %}
+</div>
