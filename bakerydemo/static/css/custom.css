@@ -4,13 +4,18 @@ a:link {
   text-decoration: none;
 }
 
+fieldset {
+    border: 0px solid #c0c0c0;
+}
+
+
 input[type=text].custom-input {
   width: 30%;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 2px;
   font-size: 23px;
-  background-color: white;
+  background-color: lightgrey;
   background-image: url('searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
@@ -32,6 +37,10 @@ border:none;
 border-radius:1px;
 width:100%;
 background-color:#ececec
+}
+
+textarea {
+    font-size: xx-large;
 }
 
 input:focus, textarea:focus {

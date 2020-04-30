@@ -11,12 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/django_comments_xtd/comment_tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd/user_feedback.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/comments/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/comments/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/tags/breadcrumbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/tags/breadcrumbs.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +95,7 @@
       <workItem from="1588150993138" duration="746000" />
       <workItem from="1588203754015" duration="9574000" />
       <workItem from="1588243761722" duration="15587000" />
-      <workItem from="1588266117275" duration="7070000" />
+      <workItem from="1588266117275" duration="14050000" />
     </task>
     <servers />
   </component>
@@ -124,9 +127,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="678" y="143" width="770" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588249771024" />
-    <state x="683" y="293" width="908" height="518" key="find.popup" timestamp="1588245223653">
+    <state x="683" y="293" width="1024" height="518" key="find.popup" timestamp="1588275923245">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="683" y="293" width="908" height="518" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1588245223653" />
+    <state x="683" y="293" width="1024" height="518" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1588275923245" />
   </component>
 </project>

@@ -1,10 +1,10 @@
 {% load i18n %}
 {% load comments %}
 
-<form method="POST" action="{% comment_form_target %}">
+<form method="POST" action="{% comment_form_target %}" >
     {% csrf_token %}
     <fieldset>
-        <input type="hidden" name="next" value="{% url 'comments-xtd-sent' %}"/>
+        <input type="hidden" name="next"  value="{% url 'comments-xtd-sent' %}"/>
 
         <div class="alert alert-danger" data-comment-element="errors" hidden>
         </div>
@@ -54,21 +54,11 @@
             </div>
         </div>
         {% endif %}
-
-        <div class="row form-group">
-            <div class="offset-md-3 col-md-7">
-                <div class="custom-control custom-checkbox">
-                    {{ form.followup }}
-                    <label for="id_followup{% if cid %}_{{ cid }}{% endif %}" class="custom-control-label">&nbsp;{{ form.followup.label }}</label>
-                </div>
-            </div>
-        </div>
     </fieldset>
 
-    <div class="row form-group">
-        <div class="offset-md-3 col-md-7">
-            <input type="submit" name="post" value="{% trans 'send' %}" class="btn btn-primary" />
-            <input type="submit" name="preview" value="{% trans 'preview' %}" class="btn btn-secondary" />
+    <div class="">
+        <div class="">
+            <input type="submit" name="post" value="{% trans 'send' %}" class="w3-button w3-blue" />
         </div>
     </div>
 </form>

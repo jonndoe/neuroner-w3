@@ -6,9 +6,9 @@
 
     <div class="w3-col l8 s12">
         {% if tag %}
-            <div class="row">
-                <div class="col-md-12">
-                    <p>Viewing all blog posts by <span class="outline">{{ tag }}</span></p>
+            <div class="">
+                <div class="">
+                    <p>Viewing all blog posts by <span class="w3-tag w3-round w3-light-blue w3-xlarge">{{ tag }}</span></p>
                 </div>
             </div>
         {% endif %}
@@ -16,31 +16,20 @@
         {% if page.get_child_tags %}
             <!-- Labels / tags -->
             <div class="w3-card w3-margin">
-              <div class="w3-container w3-padding">
-                <h4>Tags</h4>
-              </div>
               <div class="w3-container w3-white">
                   <p>
                     {% for tag in page.get_child_tags %}
-                        <a href="{{ tag.url }}"><span class="w3-tag w3-teal w3-margin-bottom">{{ tag }}</span></a>
+                        <a href="{{ tag.url }}"><span class="w3-round w3-tag w3-large w3-light-blue w3-margin-bottom">{{ tag }}</span></a>
                     {% endfor %}
                   </p>
               </div>
             </div>
         {% endif %}
 
-
-
-
-
-
-
-
         <!-- Blog entries -->
         <div class="">
             {% if posts %}
                 {% for blog in posts %}
-
                     <!-- Blog entry -->
                     <div class="w3-card-4 w3-margin w3-white">
                         {% image blog.image fill-850x450-c50 as image %}

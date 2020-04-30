@@ -35,18 +35,17 @@
                 <br>
                 <br><br>
 
-                <div class="w3-large"><p>{{ page.body }}</p></div>
+                <div class="w3-large w3-mobile"><p>{{ page.body }}</p></div>
 
                 {% if page.get_tags %}
                     Tagged with:<br />
                     {% for tag in page.get_tags  %}
-                        <a href="{{ tag.url }}" ><span class="w3-tag w3-teal w3-margin-bottom">{{ tag }}</span></a>
+                        <a href="{{ tag.url }}" ><span class="w3-tag w3-round w3-teal w3-margin-bottom">{{ tag }}</span></a>
                     {% endfor %}
                 {% endif %}
 
-                <div class="card card-block mb-5">
-                  <div class="card-body">
-                    <h4 class="card-title text-center pb-3">Post your comment</h4>
+                <div class="w3-card">
+                  <div class="">
                       {% render_comment_form for page %}
                   </div>
                 </div>
@@ -56,9 +55,8 @@
 
                 {% get_comment_count for page as comment_count %}
                 <div class="py-4 text-center">
-                  &nbsp;&sdot;&nbsp;
+                  &nbsp;&nbsp;
                   {{ comment_count }} comment{{ comment_count|pluralize }}
-                  ha{{ comment_count|pluralize:"s,ve" }} been posted.
                 </div>
 
                 {% if comment_count %}

@@ -5,6 +5,11 @@
 {% endblock head %}
 
 <body class="{% block body_class %}template-{{ self.get_verbose_name|slugify }}{% endblock %}">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+
 {% wagtailuserbar %}
 
 {% block header %}
@@ -26,16 +31,10 @@
 {% endblock breadcrumbs %}
 
 <main role="main">
-
-  <!-- Menu icon to open sidebar -->
-  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
-
-
     {% block content %}
     {% endblock content %}
 </main>
 
-    <hr>
 
     <!-- Footer -->
     <footer>
