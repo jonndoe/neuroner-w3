@@ -1,0 +1,26 @@
+{% if allow_feedback %}
+<span class="small">
+    {% if show_feedback and item.likedit_users %}
+    <a class="badge badge-primary text-white cfb-counter" data-toggle="tooltip"
+       title="{{ item.likedit_users|join:'<br/>' }}">
+        <span class="w3-tag w3-circle w3-green w3-small w3-opacity">{{ item.likedit_users|length }}</span>
+    </a>
+    {% endif %}
+
+    <a href="{% url 'comments-xtd-like' item.comment.pk %}"
+       class="{% if not item.likedit %}mutedlink{% endif %}">
+        <span class="fas fa-thumbs-up w3-text-green w3-opacity"></span></a>
+    <span class="text-muted">|</span>
+
+    {% if show_feedback and item.dislikedit_users %}
+    <a class="badge badge-primary text-white cfb-counter" data-toggle="tooltip"
+       title="{{ item.dislikedit_users|join:'<br/>' }}">
+        <span class="w3-tag w3-circle w3-red w3-small w3-opacity">{{ item.dislikedit_users|length }}</span>
+    </a>
+    {% endif %}
+  
+    <a href="{% url 'comments-xtd-dislike' item.comment.pk %}"
+       class="{% if not item.dislikedit %}mutedlink{% endif %}">
+        <span class="fas fa-thumbs-down w3-text-red w3-opacity"></span></a>
+</span>
+{% endif %}
