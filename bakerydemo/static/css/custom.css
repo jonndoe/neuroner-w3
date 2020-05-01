@@ -202,3 +202,92 @@ div.block-image_block img {
 }
 div.rich-text img{max-width:100%;height:auto}
 
+
+/* alert messages */
+div.success {
+  color:#fff!important;
+  background-color:#4CAF50!important;
+}
+
+div.messages {
+  color:#fff!important;
+  background-color:dodgerblue;
+}
+
+div.messages div {
+  z-index: 2;
+}
+
+/* login signup form errors */
+ul.errorlist {
+  background-color: red;
+  color: #fff !important;
+  padding: 12px 24px !important;
+  font-size: 24px !important;
+  position: relative;
+  animation: animatetop 0.4s;
+  box-sizing: inherit;
+}
+
+/* login signup form containers */
+
+.w3-hover-teal-dark:hover{
+  color:#fff!important;
+  background-color:#01756a !important;
+}
+
+form p {
+  margin: 0;
+}
+
+p label {
+  display: none;
+}
+
+div.form-container {
+  background-color: #333;
+  height: 105vh;
+  padding: 0;
+}
+
+h1.login-container {
+    font-size: 4em;
+    font-weight: 300;
+    line-height: 1em;
+    color: #fff;
+    text-transform: none;
+    white-space: nowrap;
+    margin-top: 0.99em;
+    margin-right: 0px;
+    margin-bottom: 0.67em;
+    margin-left: 0.67em;
+}
+
+input#id_login, input#id_password {
+  border: 0;
+  padding-left: 2.5em;
+  transition: background-color .2s ease;
+  border-radius: 0;
+  font-weight: 300;
+  padding-top: 1.5em;
+  padding-right: 20px;
+  padding-bottom: 1.5em;
+  font-size: 1.6em;
+  line-height: 1.6em;
+  -moz-appearance: none;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fafafa;
+  color: #1a1a1a;
+  margin: 0;
+  vertical-align: baseline;
+  list-style-type: none;
+  font-style: normal;
+}
+
+input#id_login:focus, input#id_password:focus {
+  background-color: #cfeff0;
+  font-weight: 100;
+  font-size: xx-large;
+}
+

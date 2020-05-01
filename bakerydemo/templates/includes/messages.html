@@ -1,9 +1,15 @@
 {% if messages %}
-    <div role="alertdialog">
-        <ul class="messages">
+
+        <div id="messages" class="messages">
             {% for message in messages %}
-            <li{% if message.tags %} class="{{ message.tags }}"{% endif %} role="alert">{{ message }}</li>
+            <div class="w3-container w3-animate-top w3-xlarge {% if message.tags %} {{ message.tags }} {% endif %} w3-padding-large" role="alert">
+                <span href="javascript:void(0)" onclick="hideMessages()" class="w3-xxlarge">
+                  <i class="fa fa-remove"></i>
+                </span>
+                <span>{{ message }}</span>
+
+            </div>
             {% endfor %}
-        </ul>
-    </div>
+        </div>
+
 {% endif %}

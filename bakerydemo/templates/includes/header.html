@@ -10,11 +10,11 @@
                       <div class="w3-bar-block w3-center">
 
                         {% if request.user.is_authenticated %}
-                            <span class="w3-bar-item w3-button w3-text-grey w3-hover-black">Hello {{ request.user.username }},
-                                <a href="{% url 'account_logout' %}" >Logout?</a></span>
+                            <span class="w3-bar-item w3-text-grey w3-hover-black">Hello {{ request.user.username }},
+                                <span class="w3-button w3-black w3-border-orange w3-border w3-text-orange w3-hover-orange w3-ripple"><a href="{% url 'account_logout' %}" >Logout?</a></span></span>
                         {% else %}
                             <span class="w3-bar-item w3-text-grey w3-hover-black">Hi guest!
-                                <span class="w3-button w3-teal"><a href="{% url 'account_login' %}" >Login?</a></span></span>
+                                <span class="w3-button w3-black w3-border-teal w3-border w3-text-teal w3-hover-teal-dark w3-ripple"><a href="{% url 'account_login' %}" >Login?</a></span></span>
                         {% endif %}
                       <br>
 

@@ -11,26 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/account_inactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset_from_key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset_from_key_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/signup_closed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/verification_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/verified_email_required.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/account/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/messages.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +95,7 @@
       <workItem from="1588203754015" duration="9574000" />
       <workItem from="1588243761722" duration="15587000" />
       <workItem from="1588266117275" duration="20789000" />
-      <workItem from="1588325998816" duration="1950000" />
+      <workItem from="1588325998816" duration="16095000" />
     </task>
     <servers />
   </component>

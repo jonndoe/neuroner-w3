@@ -7,3 +7,9 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidebar").style.display = "none";
 }
+
+
+// Hide alert messages after showing 5 seconds
+function hideMessages() {
+  document.getElementById("messages").style.display = "none";
+}

@@ -4,7 +4,7 @@
     {% include "includes/head.html" %}
 {% endblock head %}
 
-<body class="{% block body_class %}template-{{ self.get_verbose_name|slugify }}{% endblock %}">
+<body onload="setTimeout(showexampleMessages, 3000);" class="{% block body_class %}template-{{ self.get_verbose_name|slugify }}{% endblock %}">
 
   <!-- Menu icon to open sidebar -->
   <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
