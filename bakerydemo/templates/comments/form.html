@@ -5,10 +5,13 @@
     {% csrf_token %}
     <fieldset>
 
+        <!-- this input with name next was added to redirect straight to
+        comment field, after submitting new comment, it is not original part of the form -->
+        <input type="hidden" name="next" value="{% if page %}{% pageurl page %}#comments{% endif %}" />
 
-        <input type="hidden" name="next"  value="{% if page %}danger{% else %}{% url 'comments-xtd-sent' %}{% endif %}"/>
-
+        <!-- originally we have only this input with name next-->
         <input type="hidden" name="next"  value="{% url 'comments-xtd-sent' %}"/>
+
 
 
         <div class="alert alert-danger" data-comment-element="errors" hidden>

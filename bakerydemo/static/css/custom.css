@@ -298,6 +298,5 @@ input#id_password1:focus,
 input#id_password2:focus {
   background-color: #cfeff0;
   font-weight: 100;
-  font-size: xx-large;
 }
 
