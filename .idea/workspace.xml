@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/dev.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bakerydemo/templates/comments/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/comments/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1588203754015" duration="9574000" />
       <workItem from="1588243761722" duration="15587000" />
       <workItem from="1588266117275" duration="20789000" />
-      <workItem from="1588325998816" duration="20578000" />
+      <workItem from="1588325998816" duration="21665000" />
     </task>
     <servers />
   </component>

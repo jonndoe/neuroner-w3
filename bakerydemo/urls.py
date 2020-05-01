@@ -10,6 +10,8 @@ from wagtail.core import urls as wagtail_urls
 from bakerydemo.search import views as search_views
 from .api import api_router
 
+from django.urls import path
+
 urlpatterns = [
     url(r'^django-admin/', admin.site.urls),
 
@@ -33,6 +35,12 @@ urlpatterns = [
 
 
 if settings.DEBUG:
+    import debug_toolbar
+
+    urlpatterns = [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ] + urlpatterns
+
     from django.conf.urls.static import static
     from django.contrib.staticfiles.urls import staticfiles_urlpatterns
     from django.views.generic import TemplateView

@@ -6,6 +6,7 @@
     <fieldset>
 
 
+        <input type="hidden" name="next"  value="{% if page %}danger{% else %}{% url 'comments-xtd-sent' %}{% endif %}"/>
 
         <input type="hidden" name="next"  value="{% url 'comments-xtd-sent' %}"/>
 
