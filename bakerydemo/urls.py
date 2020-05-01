@@ -22,6 +22,13 @@ urlpatterns = [
     url(r'^api/v2/', api_router.urls),
 
     url(r'^comments/', include('django_comments_xtd.urls')),
+
+    url(r'', include('allauth.urls')),  # Creates urls like yourwebsite.com/login/
+    # url(r'^accounts/', include('allauth.urls')), # Creates urls like yourwebsite.com/accounts/login/
+
+    # Wagtail URLs
+    url(r'', include(wagtail_urls)),
+
 ]
 
 

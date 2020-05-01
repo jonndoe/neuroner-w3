@@ -11,14 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/account_inactive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/email_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset_from_key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_reset_from_key_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/password_set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/signup_closed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/verification_sent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/templates/account/verified_email_required.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base/gallery_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base/gallery_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/base/include/header-hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/base/include/header-hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/tags/breadcrumbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/tags/breadcrumbs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/tags/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/tags/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +67,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bakerydemo/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bakerydemo/templates/account" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bakerydemo/templates/account" />
+      <recent name="$PROJECT_DIR$/bakerydemo/templates" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bakerydemo/templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +107,8 @@
       <workItem from="1588150993138" duration="746000" />
       <workItem from="1588203754015" duration="9574000" />
       <workItem from="1588243761722" duration="15587000" />
-      <workItem from="1588266117275" duration="20049000" />
+      <workItem from="1588266117275" duration="20789000" />
+      <workItem from="1588325998816" duration="1950000" />
     </task>
     <servers />
   </component>
