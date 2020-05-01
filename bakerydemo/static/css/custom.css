@@ -263,7 +263,12 @@ h1.login-container {
     margin-left: 0.67em;
 }
 
-input#id_login, input#id_password {
+input#id_login,
+input#id_password,
+input#id_email,
+input#id_username,
+input#id_password1,
+input#id_password2 {
   border: 0;
   padding-left: 2.5em;
   transition: background-color .2s ease;
@@ -285,7 +290,12 @@ input#id_login, input#id_password {
   font-style: normal;
 }
 
-input#id_login:focus, input#id_password:focus {
+input#id_login:focus,
+input#id_password:focus,
+input#id_email:focus,
+input#id_username:focus,
+input#id_password1:focus,
+input#id_password2:focus {
   background-color: #cfeff0;
   font-weight: 100;
   font-size: xx-large;

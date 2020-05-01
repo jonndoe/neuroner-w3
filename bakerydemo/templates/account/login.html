@@ -12,7 +12,7 @@
 <br><br>
 
 
-<h1 class="login-container">{% trans "Sign In" %}</h1>
+<h1 class="login-container">{% trans "Log In" %}</h1>
 
 {% get_providers as socialaccount_providers %}
 
@@ -42,7 +42,7 @@ for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <button class="w3-button w3-teal w3-text-white w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple" type="submit">{% trans "Sign In" %}</button>
+  <button class="w3-button w3-teal w3-text-white w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple" type="submit">{% trans "Log In" %}</button>
   <button class="w3-button w3-border-teal w3-border w3-text-teal w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple">{% blocktrans %}<a href="{{ signup_url }}">sign up</a>{% endblocktrans %}</button>
   <a class="w3-button w3-border-teal w3-border w3-text-teal w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
 </form>

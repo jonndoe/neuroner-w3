@@ -5,9 +5,15 @@
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
-<h1>{% trans "Sign Up" %}</h1>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+<div class="w3-container form-container">
+<br><br>
+
+
+
+<h1 class="login-container">{% trans "Sign Up" %}</h1>
+
+
 
 <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
   {% csrf_token %}
@@ -15,7 +21,11 @@
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
+  <button class="w3-button w3-teal w3-text-white w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple" type="submit">{% trans "Sign Up" %} &raquo;</button>
+  <button class="w3-button w3-border-teal w3-border w3-text-teal w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple">{% blocktrans %}<a href="{{ login_url }}">Log in</a>{% endblocktrans %}</button>
+  <a class="w3-button w3-border-teal w3-border w3-text-teal w3-xxlarge w3-round w3-margin w3-hover-teal-dark w3-ripple" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
 </form>
 
+
+</div>
 {% endblock %}
