@@ -60,7 +60,7 @@
                 </div>
 
                 {% if comment_count %}
-                <ul class="media-list">
+                <ul class="media-list" id="comments">
                   {% render_xtdcomment_tree for page allow_flagging allow_feedback show_feedback %}
                 </ul>
                 {% endif %}
