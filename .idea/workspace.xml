@@ -12,10 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_index_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/blog/blog_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/templates/tags/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/templates/tags/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/dev.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +61,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/requirements" />
+      <recent name="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bakerydemo/templates/account" />
       <recent name="$PROJECT_DIR$/bakerydemo/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd" />
     </key>
   </component>
   <component name="RunManager">
@@ -96,7 +96,8 @@
       <workItem from="1588203754015" duration="9574000" />
       <workItem from="1588243761722" duration="15587000" />
       <workItem from="1588266117275" duration="20789000" />
-      <workItem from="1588325998816" duration="37023000" />
+      <workItem from="1588325998816" duration="37423000" />
+      <workItem from="1588431288152" duration="6574000" />
     </task>
     <servers />
   </component>
