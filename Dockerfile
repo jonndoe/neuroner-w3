@@ -15,7 +15,7 @@ WORKDIR /code
 COPY . /code/
 
 # Install dependencies
-RUN pip install -r requirements/req.dev.docker.txt
+RUN pip install -r requirements/everything.txt
 
 
 

@@ -8,10 +8,14 @@ services:
 
     build: .
     command: >
-      sh -c "python manage.py migrate &&
-             python manage.py load_initial_data &&
+      sh -c "cp bakerydemo/settings/local.py.example bakerydemo/settings/local.py &&
+             echo "DJANGO_SETTINGS_MODULE=bakerydemo.settings.local" > .env &&
+             python manage.py migrate &&
              python manage.py runserver 0.0.0.0:8000"
     #command: gunicorn crud_project.wsgi -b 0.0.0.0:8000
+    #command: echo "yes" | python manage.py flush &&
+    #command: python manage.py loaddata dumpdata/db.json &&
+    #command: python manage.py load_initial_data &&
 
     environment:
       - ENVIRONMENT=development
