@@ -111,6 +111,7 @@ If you change content or images in this repo and need to prepare a new fixture f
 
 `./manage.py dumpdata --natural-foreign --indent 2 -e auth.permission -e contenttypes -e wagtailcore.GroupCollectionPermission -e wagtailimages.filter -e wagtailcore.pagerevision -e wagtailimages.rendition  -e sessions > bakerydemo/base/fixtures/bakerydemo.json`
 
+This is to be investigated as above mentioned command doesnt work i.e. file db.json  created corrupted so load data is impossible
 
 # Other notes
 
