@@ -300,3 +300,33 @@ input#id_password2:focus {
   font-weight: 100;
 }
 
+/* blog index grid nice display */
+.indeximage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 750px) {
+  /* For mobile phones: */
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+  /* For mobile phones: */
+  .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+}

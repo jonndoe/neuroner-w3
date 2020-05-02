@@ -24,14 +24,21 @@
             </div>
         {% endif %}
 
-        <!-- Blog entries -->
+
+
+
+
+
+
+        <!-- Blog entries nice w3 css -->
         <div class="">
             {% if posts %}
+                <div class="">
                 {% for blog in posts %}
                     <!-- Blog entry -->
-                    <div class="w3-card-4 w3-margin w3-white">
-                        {% image blog.image fill-850x450-c50 as image %}
-                        <img src="{{ image.url }}" alt="{{ image.alt }}" style="width:100%" />
+                    {% image blog.image fill-850x450-c50 as image %}
+                    <div class="w3-margin w3-card-4 w3-white w3-text-white" style="background-size: cover; background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),url('{{ image.url }}')">
+
                         <div class="w3-container">
                           <h3><b>{{ blog.title }}</b></h3>
                           <h5>
@@ -54,11 +61,16 @@
                                 </p>
                             </div>
                             <div class="w3-col m4 w3-hide-small">
-                              <p><span class="w3-padding-large w3-right"><b>
+                              <p>
+                                  <span class="w3-padding-large w3-right">
+                                  <b>
                                   {% get_comment_count for blog as comment_count %}
                                   {% if comment_count %}
                                   Comment{{ comment_count|pluralize }}
-                                      </b> <span class="w3-badge">{{ comment_count }}</span></span></p>
+                                  </b>
+                                  <span class="w3-badge">{{ comment_count }}</span>
+                                  </span>
+                              </p>
                                   {% endif %}
                             </div>
                           </div>
@@ -70,6 +82,17 @@
                     <p>Oh, snap. Looks like we were too busy baking to write any blog posts. Sorry.</p>
                 </div>
             {% endif %}
+
+            </div>
         </div>
+
+
+
+
+
+
+
+
+
     </div>
 {% endblock content %}

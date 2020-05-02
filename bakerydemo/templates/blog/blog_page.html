@@ -44,9 +44,13 @@
                     {% endfor %}
                 {% endif %}
 
-                <div class="w3-card">
+                <div class="w3-container">
                   <div class="">
-                      {% render_comment_form for page %}
+                      {% if user.is_authenticated %}
+                        {% render_comment_form for page %}
+                      {% else %}
+                        <h3>Please <a class="w3-button w3-text-teal w3-border w3-border-teal " href="{% url 'account_login' %}">log in</a> to leave a comment.</h3>
+                      {% endif %}
                   </div>
                 </div>
 
