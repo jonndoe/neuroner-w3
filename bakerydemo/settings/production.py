@@ -21,7 +21,7 @@ else:
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Redirect all requests to HTTPS
-SECURE_SSL_REDIRECT = os.getenv('DJANGO_SECURE_SSL_REDIRECT', 'off') == 'on'
+#SECURE_SSL_REDIRECT = os.getenv('DJANGO_SECURE_SSL_REDIRECT', 'off') == 'on'
 
 # Accept all hostnames, since we don't know in advance which hostname will be used for any given Heroku instance.
 # IMPORTANT: Set this to a real hostname when using this in production!
@@ -42,25 +42,6 @@ CACHES = {'default': django_cache_url.config()}
 
 # Configure Elasticsearch, if present in os.environ
 ELASTICSEARCH_ENDPOINT = os.getenv('ELASTICSEARCH_ENDPOINT', '')
-
-if ELASTICSEARCH_ENDPOINT:
-    from elasticsearch import RequestsHttpConnection
-    WAGTAILSEARCH_BACKENDS = {
-        'default': {
-            'BACKEND': 'wagtail.search.backends.elasticsearch2',
-            'HOSTS': [{
-                'host': ELASTICSEARCH_ENDPOINT,
-                'port': int(os.getenv('ELASTICSEARCH_PORT', '9200')),
-                'use_ssl': os.getenv('ELASTICSEARCH_USE_SSL', 'off') == 'on',
-                'verify_certs': os.getenv('ELASTICSEARCH_VERIFY_CERTS', 'off') == 'on',
-            }],
-            'OPTIONS': {
-                'connection_class': RequestsHttpConnection,
-            },
-        }
-    }
-
-
 
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
