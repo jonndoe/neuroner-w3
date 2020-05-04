@@ -11,25 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vagrantfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bakerydemo/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/bakerydemo/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contributing.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-entrypoint.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.examle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements/everything.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements/everything.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stellar.yaml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,15 +58,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/db.bkup" />
-      <recent name="$PROJECT_DIR$/requirements" />
-      <recent name="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bakerydemo/templates/account" />
       <recent name="$PROJECT_DIR$/bakerydemo/templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backup" />
+      <recent name="$PROJECT_DIR$/db.bkup" />
+      <recent name="$PROJECT_DIR$/requirements" />
+      <recent name="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,7 +100,7 @@
       <workItem from="1588431288152" duration="23264000" />
       <workItem from="1588497451321" duration="3988000" />
       <workItem from="1588525075192" duration="1212000" />
-      <workItem from="1588586939494" duration="407000" />
+      <workItem from="1588586939494" duration="737000" />
     </task>
     <servers />
   </component>
@@ -157,5 +140,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="683" y="293" width="1024" height="518" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1588372994932" />
+    <state x="1092" y="446" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1588587489727">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1092" y="446" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1588587489727" />
   </component>
 </project>
