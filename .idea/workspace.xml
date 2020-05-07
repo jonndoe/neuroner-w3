@@ -11,7 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e5872cb-e219-404a-9477-00e7374e4f99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bakerydemo/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.dev" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bakerydemo/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgresql/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +63,17 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bakerydemo" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backup" />
+      <recent name="$PROJECT_DIR$/db.bkup" />
+      <recent name="$PROJECT_DIR$/requirements" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/bakerydemo/templates/account" />
       <recent name="$PROJECT_DIR$/bakerydemo/templates" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backup" />
-      <recent name="$PROJECT_DIR$/db.bkup" />
-      <recent name="$PROJECT_DIR$/requirements" />
-      <recent name="$PROJECT_DIR$/bakerydemo/templates/includes/django_comments_xtd" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,7 +106,10 @@
       <workItem from="1588431288152" duration="23264000" />
       <workItem from="1588497451321" duration="3988000" />
       <workItem from="1588525075192" duration="1212000" />
-      <workItem from="1588586939494" duration="737000" />
+      <workItem from="1588586939494" duration="1805000" />
+      <workItem from="1588601900520" duration="1892000" />
+      <workItem from="1588667237242" duration="229000" />
+      <workItem from="1588724687636" duration="3378000" />
     </task>
     <servers />
   </component>
@@ -128,10 +137,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1112" y="436" key="#YAML/67.27.1853.1053@67.27.1853.1053" timestamp="1588447859714" />
-    <state x="1148" y="282" width="424" height="513" key="FileChooserDialogImpl" timestamp="1588367431092">
+    <state x="1068" y="334" width="588" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588588304410">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1148" y="282" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1588367431092" />
+    <state x="1068" y="334" width="588" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588588304410" />
+    <state x="1148" y="282" width="424" height="513" key="FileChooserDialogImpl" timestamp="1588667462831">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1148" y="282" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1588667462831" />
     <state x="678" y="143" width="770" height="773" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588249771024">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

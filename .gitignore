@@ -3,6 +3,9 @@
 *.log
 *.swp
 *.retry
+.env.prod
+.env.prod.db
+.env.dev
 .env
 *~
 /logs
